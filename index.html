@@ -5,52 +5,89 @@
 		<title>Document</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/lightbox.min.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<form>
-			<input type="text" name="search" placeholder="Search(16pt)" />
+			<label for="search">
+				<input type="text" name="search" placeholder="Search(16pt)"
+			/></label>
 		</form>
 
 		<div class="flex-container">
 			<div class="flex-item">
-				<img src="photos/thumbnails/01.jpg" alt="field" />
+				<a href="photos/01.jpg" data-lightbox="images" data-title="The field"
+					><img src="photos/thumbnails/01.jpg" alt="field"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/02.jpg" alt="#" />
+				<a href="photos/02.jpg" data-lightbox="images" data-title="The sea"
+					><img src="photos/thumbnails/02.jpg" alt="sea"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/03.jpg" alt="#" />
+				<a href="photos/03.jpg" data-lightbox="images" data-title="The forrest"
+					><img src="photos/thumbnails/03.jpg" alt="forrest"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/04.jpg" alt="#" />
+				<a href="photos/04.jpg" data-lightbox="images" data-title="The iceberg"
+					><img src="photos/thumbnails/04.jpg" alt="iceberg"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/05.jpg" alt="#" />
+				<a
+					href="photos/05.jpg"
+					data-lightbox="images"
+					data-title="The red cliffs"
+					><img src="photos/thumbnails/05.jpg" alt="cliffs"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/06.jpg" alt="#" />
+				<a href="photos/06.jpg" data-lightbox="images" data-title="The bridge"
+					><img src="photos/thumbnails/06.jpg" alt="bridge"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/07.jpg" alt="#" />
+				<a
+					href="photos/07.jpg"
+					data-lightbox="images"
+					data-title="The green mountains"
+					><img src="photos/thumbnails/07.jpg" alt="green mountains"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/08.jpg" alt="#" />
+				<a
+					href="photos/08.jpg"
+					data-lightbox="images"
+					data-title="The sandy beach"
+					><img src="photos/thumbnails/08.jpg" alt="the sandy beach"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/09.jpg" alt="#" />
+				<a href="photos/09.jpg" data-lightbox="images" data-title="The path"
+					><img src="photos/thumbnails/09.jpg" alt="path"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/10.jpg" alt="#" />
+				<a href="photos/10.jpg" data-lightbox="images" data-title="The coast"
+					><img src="photos/thumbnails/10.jpg" alt="coast"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/11.jpg" alt="#" />
+				<a href="photos/11.jpg" data-lightbox="images" data-title="The arch"
+					><img src="photos/thumbnails/11.jpg" alt="arch"
+				/></a>
 			</div>
 			<div class="flex-item">
-				<img src="photos/thumbnails/12.jpg" alt="#" />
+				<a href="photos/12.jpg" data-lightbox="images" data-title="The alpine"
+					><img src="photos/thumbnails/12.jpg" alt="alpine"
+				/></a>
 			</div>
 		</div>
-
+		<script src="js/jquery-3.5.1.js"></script>
+		<script src="js/lightbox.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
